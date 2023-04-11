@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.board{
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.board button{
+  flex-basis: 33%;
+  height: 99px;
+}
